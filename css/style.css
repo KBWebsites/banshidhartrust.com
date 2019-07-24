@@ -1,6 +1,6 @@
 body {
   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   line-height: 2;
   color: gray;
@@ -20,8 +20,8 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   color: #000;
-  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-weight: 300;
+  font-family: "'Darker Grotesque", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-weight: 1200;
 }
 
 .wrap {
@@ -36,7 +36,7 @@ header {
   position: relative;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 101%;
   z-index: 5;
   -webkit-box-shadow: 0 5px 80px -10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 80px -10px rgba(0, 0, 0, 0.2);
@@ -47,7 +47,7 @@ header .navbar-brand {
   letter-spacing: .1em;
   font-weight: bold;
   color: #000 !important;
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: "Darker Grotesque"
   font-size: 24px;
 }
 
@@ -58,8 +58,8 @@ header .navbar-collapse {
 header .navbar {
   padding-top: 0;
   padding-bottom: 0;
-  padding-right: 150px;
-  background: #fff !important;
+/*  padding-right: 150px;
+*/  background: #fff !important;
 }
 
 @media (max-width: 991.98px) {
@@ -96,8 +96,8 @@ header .navbar .nav-link {
 
 @media (max-width: 991.98px) {
   header .navbar .nav-link {
-    padding: .5rem .5rem;
-  }
+/*    padding: .5rem .5rem;
+*/  }
 }
 
 header .navbar .nav-link:hover {
