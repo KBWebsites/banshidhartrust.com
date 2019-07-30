@@ -6,6 +6,7 @@
 	background-repeat: no-repeat;
 	backface-visibility: hidden;
 	animation: slideBg 40s infinite;
+	background-image: url(../images/flood-relief/1.jpg);
 }
 
 @keyframes slideBg {
