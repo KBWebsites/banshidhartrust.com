@@ -1,13 +1,11 @@
 .SLIDE_BG{
 	width: 100%;
-	height: 100vh;
-	background-position: center center;
+	height: 100%;
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	backface-visibility: hidden;
-	animation: slideBg 40s linear infinite 0s;
-	animation-timing-function: ease-in-out;
-	background-image: url('../images/flood-relief/1.jpg');
+	animation: slideBg 40s infinite;
 }
 
 @keyframes slideBg {
