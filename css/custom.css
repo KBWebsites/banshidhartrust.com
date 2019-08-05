@@ -6,7 +6,6 @@
 	background-repeat: no-repeat;
 	backface-visibility: hidden;
 	animation: slideBg 40s infinite;
-	transition: all 1s linear;
 	background-image: url('/images/flood-relief/1.jpg');
 } 
 
