@@ -1186,10 +1186,10 @@ blockquote p {
   color: #fff !important;
 }
 
-.element-animate {
+/*.element-animate {
   opacity: 0;
   visibility: hidden;
-}
+}*/
 
 .block-16 figure {
   position: relative;
