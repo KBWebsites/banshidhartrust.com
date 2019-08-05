@@ -173,6 +173,10 @@ header .navbar.navbar-light .nav-link.active {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  min-height: 300px;
+  /*height: 100vh;*/
+}
+.site-hero.home {
   min-height: 750px;
   height: 100vh;
 }
@@ -254,6 +258,10 @@ header .navbar.navbar-light .nav-link.active {
 }
 
 .site-hero .site-hero-inner {
+  min-height: 300px;
+  /*height: 100vh;*/
+}
+.site-hero.home .site-hero-inner {
   min-height: 750px;
   height: 100vh;
 }
