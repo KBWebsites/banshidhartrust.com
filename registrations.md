@@ -1,7 +1,9 @@
 ---
 title: Registrations
+images:
+  - /images/pan-card.jpg
+  - /images/12A.jpg
+  - /images/80G.jpg
 ---
 
-# PAN Card
-
-<img src="images/pan-card.jpg" style="padding-top:50px">
+{% include gallery.html images=page.images image_height=320 %}
