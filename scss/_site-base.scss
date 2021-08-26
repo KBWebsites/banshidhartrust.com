@@ -2,6 +2,7 @@ $font-family-sans-secondary:  'Oswald', arial, sans-serif;
 
 body {
 	line-height: 1.7;
+	overflow-x: hidden;
 	// color: lighten($black, 70%);
 	color: rgba(0,0,0,.5);
 	font-weight: 400;
